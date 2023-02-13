@@ -35,7 +35,7 @@ $(function () {
       }, 9000)
 
       let origin = window.location.origin;
-      let subPath = '/valentine-card' // TODO: Zmenit pro kazdou verzi valentynky
+      let subPath = '/valentynka-blanka' // TODO: Zmenit pro kazdou verzi valentynky
       let audio1 = new Audio(origin+subPath+'/audio1.mp3')
       let audio2 = new Audio(origin+subPath+'/audio2.mp3')
       let currentAudio = 1;
